@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumSimpleProject_TestSuite">
+
+	<!-- 3 ERROR 5 WARNING 7 INFO 9 TRACE -->
+	<test name="Test a 'Login' page" verbose="2">
+		<classes>
+			<!-- Search one random word in google -->
+			<class name="com.kryvenkosergii.GL_TestAutomationBaseCamp.ui.tests.TestUISemanticLoginPage">
+				<methods>
+					<include name="logging1" />
+					<include name="logging2" />
+					<include name="logging3" />
+					<include name="registering" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
